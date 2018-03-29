@@ -3,6 +3,7 @@ project(${CMAKE_PROJECT_NAME}_lib)
 set(HEADER_FILES
 )
 set(SOURCE_FILES
+    dna.cpp
 )
 
 if (EXISTS ${SOURCE_FILES})
