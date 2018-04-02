@@ -3,6 +3,7 @@ project(${CMAKE_PROJECT_NAME}_lib)
 set(HEADER_FILES
 )
 set(SOURCE_FILES
+    combine_strings.cpp
     count_digits.cpp
     dna.cpp
 )
