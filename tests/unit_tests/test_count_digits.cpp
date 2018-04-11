@@ -19,7 +19,7 @@ public:
   }
 
 protected:
-  int expected, test_digits, test_num;
+  int expected{}, test_digits{}, test_num{};
   CountDigits *test_num_digits{};
 
   virtual void SetUp() {
