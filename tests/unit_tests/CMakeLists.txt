@@ -5,6 +5,7 @@ add_executable(Unit_Tests_run
     test_count_digits.cpp
     test_dna.cpp
     test_example.cpp
+    test_year.cpp
 )
 
 target_link_libraries(Unit_Tests_run gtest gtest_main)
