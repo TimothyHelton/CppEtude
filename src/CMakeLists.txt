@@ -1,11 +1,13 @@
 project(${CMAKE_PROJECT_NAME}_lib)
 
 set(HEADER_FILES
+    year.h
 )
 set(SOURCE_FILES
     combine_strings.cpp
     count_digits.cpp
     dna.cpp
+    year.cpp
 )
 
 if (DEFINED SOURCE_FILES)
